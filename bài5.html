@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x=prompt('')
+    function c() {
+        let arr = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', ' Altair', 'Dubhe', 'Regulus'];
+        let b = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+        for (let i = 0; i <= arr.length; i++) {
+            if (x===arr[i]){
+                return b[i]
+            }
+        }
+        return 'not found'
+    }alert(c())
+</script>
+</body>
+</html>
